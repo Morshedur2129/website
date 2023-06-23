@@ -1,0 +1,135 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.first{
+	background-image: url(../img/filter.jpeg);
+	width:100%;
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:20 50 70 30;
+}
+.title{
+	font-size: 40px;
+	cursor: pointer;
+	color: white; 
+	letter-spacing: 1px;
+}
+.home_link{
+    text-decoration:none;
+  }
+.span1{
+	color:orange;
+}
+.span2{
+	font-size: 18;
+	color: #ffffff;
+
+}
+
+
+h2 {
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+h2:before{
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition:0.3s ease-in-out;
+}
+
+h2:hover::before{
+  width: 100%;
+}
+
+
+div .button{
+	list-style-type: none;
+	display: inline-flex;
+    justify-content: space-between;
+	padding:20 50 70 30;
+}
+div ul li a p{
+	font-size: 20px;
+	padding:4px 5px;
+	margin:2px 15px;
+	border:0px solid skyblue;
+	text-decoration: none;
+	color:white;
+	text-transform: capitalize;
+	font-weight: bold;
+	transition: transform 0.2s;
+    background-color: #8e8026;
+    border-radius: 10px;
+    
+}
+div ul li a{
+	text-decoration: none;
+}
+div ul li a p:hover{
+	color: #f9004d;
+	transform:scale(1.0);
+	border:3px solid skyblue;
+	border-radius: 9px;
+}
+
+
+div ul li ul li{
+	list-style-type: none;
+    padding:4px 5px;
+	margin:2px 15px
+
+}
+div ul li ul li a{
+	font-size: 16px;
+	padding:6px 5px;
+	margin:5px 15px;
+	text-decoration: none;
+	color:white;
+	text-transform: capitalize;
+	font-weight: none;
+	transition: transform 0.2s;
+}
+
+div ul li ul li a:hover{
+	color: #f9004d;
+	transform:scale(1.3);
+}
+
+.profile{
+	color: white;
+	text-decoration: none;
+	border:3px solid skyblue;
+	border-radius: 18px;
+	font-weight: bold;
+	padding:5px 11px;
+	transition: transform 0.3s;
+
+}
+.profile:hover{
+	transform: scale(1.2);
+	padding: 5px 11px;
+	background: green;
+	color: orange;
+}
+
+
+
+.custom-select {
+	background-color: transparent;
+	color: #fff;
+  }
